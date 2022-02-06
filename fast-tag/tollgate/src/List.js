@@ -15,8 +15,8 @@ const List=()=>{
 
    const iterate=async()=>{
        const t=await traverse()
-      // setRead(t.data)
-      // setAll(t.data)
+      setRead(t.data)
+       setAll(t.data)
        alert(JSON.stringify(t.data))
     }
 
@@ -64,7 +64,7 @@ const List=()=>{
                                 </tr>
                             </thead>
                             <tbody>
-                                {/* {all.map((data,index)=>(
+                                 {all.map((data,index)=>(
                                     <tr>
                                         <td onClick={
                                             ()=>{
@@ -84,7 +84,7 @@ const List=()=>{
                                             ))}
                                         </td>
 				                        </tr>
-                                ))} */}
+                                ))} 
                             </tbody>
                         </table>
                     </div>

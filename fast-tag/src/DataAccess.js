@@ -1,4 +1,4 @@
-let info=[
+{/*let info=[
     {
         "vehicleNumber":"cccc",
             "ownerName":"mahesh",
@@ -31,4 +31,4 @@ const getting=(name)=>{
     return newone[0]
 }
 export {getting}
-export default info;
+export default info;*/}

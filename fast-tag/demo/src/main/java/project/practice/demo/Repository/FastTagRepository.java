@@ -6,6 +6,7 @@ import org.springframework.stereotype.Repository;
 import project.practice.demo.entity.FastTag;
 
 @Repository
-public interface FastTagRepository extends JpaRepository<FastTag,String>{
+public interface FastTagRepository extends JpaRepository<FastTag,String>
+{
 
 }

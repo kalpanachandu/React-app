@@ -13,10 +13,11 @@ public class FastTagServices {
 	@Autowired
 	FastTagRepository fastrepo;
 	 
-	public FastTag interact(FastTag object)
+	/*public FastTag interact(FastTag object)
 	{
 		return fastrepo.save(object);
-	}
+	}*/
+	
 	public List<FastTag> readEverything()
 	{
 		return fastrepo.findAll();
